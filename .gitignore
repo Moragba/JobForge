@@ -1,0 +1,6 @@
+# Ignore environment variable files
+*.env
+*.env.*
+
+# Ignore Visual Studio Code settings folder
+.vscode
