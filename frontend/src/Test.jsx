@@ -6,7 +6,7 @@ import './App.css';
 function test() {
     const [backendResponse, setBackendResponse] = useState("Warte auf Antwort vom Backend...");
 
-    fetch("http://localhost:8090/api/test")
+    fetch("/api/test")
         .then((response) => response.json())
         .then((data) => {
             setBackendResponse(data.message);

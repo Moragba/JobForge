@@ -4,3 +4,6 @@
 
 # Ignore Visual Studio Code settings folder
 .vscode
+
+# Ignore docker-compose file
+docker-compose.yml
