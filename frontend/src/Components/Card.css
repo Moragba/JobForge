@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(255, 255, 255) 50%, #1f2028 50%);
+}
+
+.card-icon{
+    height: 150px;
+    text-align: center;     
+}
+
+h3{    
+    height: inherit;
+    line-height: 120px;
+    margin: 0px;
+    padding: 8px;
+}
+.card-content{
+    height: 120px;
+    padding: 8px;
+}
+.card-content p{
+    height: 90px;
+}
+
+.card-content input{ 
+    width: 100%;  
+}
+
+.succsess{
+    background-image: linear-gradient(rgb(132, 255, 132) 0%, #1f2028 100%);
+    color: #0f6a1f;
+}
+
+.error{
+    background-image: linear-gradient(rgb(255, 132, 132) 0%, #1f2028 100%);
+}

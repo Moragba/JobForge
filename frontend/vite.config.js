@@ -9,7 +9,7 @@ export default defineConfig({
     strictPort: true,
     watch: {
       usePolling: true,
-    },
+    },    
     proxy: {
       '/api': {
         target: 'http://localhost:8090',
